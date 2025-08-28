@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Biokuppel</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+
+
+</head>
+<body>
+
+  <nav>
+    <h3>Mythic+ Dungeons Season 3</h3>
+    <a href="index.html" style="margin-top: 30px;">Biokuppel</a>
+    <a href="seite2.html">Operation Schleuse</a>
+    <!--<a href="seite3.html">Seite 3</a>
+    <a href="seite4.html">Seite 4</a>
+    <a href="seite5.html">Seite 5</a>
+    <a href="seite6.html">Seite 6</a>
+    <a href="seite7.html">Seite 7</a>
+    <a href="seite8.html">Seite 8</a>
+    <button style="margin-top: 30px;" onclick="toggleDarkMode()">Dark/Light Mode</button>-->
+
+  </nav>
+
+
+  <header>
+    <div class="header">
+
+      <div class="platzhalter">
+      </div>
+
+      <div class="mittelteil">
+        
+        <div class="mlinks">
+          <a href="https://www.youtube.com/watch?v=_44TwKK6bv0" class="title" target="_blank">Biokuppel</a>
+        </div>
+
+        <div class="mmitte">
+                <a href="https://www.youtube.com/watch?v=_44TwKK6bv0" class="yt" target="_blank">YouTube</a>
+        </div>
+
+        <div class="mrechts">
+        </div>
+
+      </div>
+
+      <div class="platzhalterrechts">
+
+        <!-- Knopf zum Ein- und Ausschalten der rechten Leiste-->
+        <button class="toggle-button" id="toggleButton">Spielerliste</button>
+
+        <!--<script>
+          function toggleBox() {
+            const box = document.getElementById("myBox");
+            box.style.display = (box.style.display === "none" || box.style.display === "") ? "block" : "none";
+          }
+        </script>-->
+
+
+
+      </div>
+
+    </div>
+  </header>
+
+    <!-- Übersicht der Spieler -->
+    <div class="rechte-box" id="myBox" style="display: none;">
+      <h2>Derzeit am Start:</h2>
+      <div style="margin-top: 70px;"></div>
+      <p><a href="https://raider.io/characters/eu/shattrath/S%C3%A2drina" style="color: rgb(0, 112, 222);" target="_blank">Sâdrina</a> | Ani</p>
+      <p><a href="https://raider.io/characters/eu/shattrath/B%C3%A4rnd" style="color: rgb(0, 255, 150);" target="_blank">Bärnd</a> | Bernd</p>
+      <p><a href="https://raider.io/characters/eu/perenolde/Ellrendyl" style="color: rgb(255, 125, 10);" target="_blank">Ellrendyl</a> | Martin</p> 
+      <p><a href="https://raider.io/characters/eu/nozdormu/Pride" style="color: rgb(245, 140, 186);" target="_blank">Pride</a> | Stefan</p>
+      <p><a href="https://raider.io/characters/eu/nozdormu/Salma" style="color: rgb(148, 130, 201);" target="_blank">Salma</a> | Stefan (Twink)</p> 
+  </div>
+
+
+<div class="main">
+
+    <!--linke Seite-->
+    
+    <div style="font-size: .8rem; display: flex; flex-direction: row;">
+      <img src="https://wow.zamimg.com/uploads/screenshots/normal/1226734.jpg" class="bild" style="display: block; object-fit: cover;">
+      <a href="https://wow.zamimg.com/uploads/screenshots/normal/1226734.jpg" style="color: white; text-decoration: none; writing-mode: vertical-rl; margin-left: 10px;">Quelle: https://wow.zamimg.com</a>
+    </div>
+
+    <h2 style="padding-top: 40px;">Trash</h2>
+    <ul>
+      <li><span class="blue"><div class="target-div" style="list-style: none; width: 100%;">Verschlingen</div></span> der <span class="lila">überfressenen Milbe</span> kicken</li>
+      <li><span class="red">gieriges Schmettern</span></li>
+      <ul>
+        <li><span class="green">massiver AOE</span></li>
+      </ul>
+      <li>gefräßiges Miasma</li>
+      <ul>
+        <li>verteilt stehen</li>
+      </ul>
+    </ul>
+  
+    <div class="absatz">
+    <h1>
+        Azhiccar
+
+        <a href="https://www.wowhead.com/guide/the-war-within/dungeons/eco-dome-aldani-overview-rewards#eco-dome-aldanibosses-azhiccar" 
+        class="wowhead" target="_blank">WOWHEAD</a>
+
+        <a href="https://www.youtube.com/watch?v=_44TwKK6bv0&t=2m19s" class="yt" target="_blank">
+        YouTube</a>
+    </h1>
+        
+    <ul>
+      <li class="green">Eindringender Schrei</li>
+      <ul> <li>AoE + Adds spawnen</li> </ul>
+      <li class="green">Toxischer Auswurf</li>
+      <ul><li>hinterlässt Flächen, die den Milben ebenfalls schaden (nah am Boss ablegen)</li></ul>
+      <ul><li>beim Ziel den <span class="green">Debuff gegenheilen</span></li></ul>
+      <li><span class="green" style="background-color: yellow; color: red; padding: 3px;">Verschlingen</span> (bei 100% Energie des Bosses)</li>
+      <ul><li>es erscheinen wieder Milben, die durch die Flächen verlangsamt werden</li></ul>
+      <ul><li class="red"><span style="background-color: yellow; padding: 3px;">die Milben dürfen den Boss nicht erreichen</span></li></ul>
+      <ul><li class="green">massiver AoE</li></ul>
+    </ul>
+    </div>
+
+    <div class="absatz">
+    <h2>Trash</h2>
+    <ul>
+      <li class="lila">Überladener Wächter</li>
+      <ul><li>bei 50% zerschmettert er seinen Kern</li></ul>
+      <ul><li>es kommt <span class="green">extrem viel Gruppenschaden</span> und er <span style="font-weight: bold; background-color: yellow; color: red; padding: 3px;">muss schnell sterben</span></li></ul>
+      <li class="lila">Weitenpirscher</li>
+      <ul><li><span class="blue">Überspringender Stromschlag</span> muss gekickt werden</li></ul>
+      <li class="green">Überspringende Energie dispellen</li>
+    </ul>
+    </div>
+
+    <div class="absatz">
+    <h1>
+      Taah´bat & A´wazj 
+
+      <a href="https://www.wowhead.com/guide/the-war-within/dungeons/eco-dome-aldani-overview-rewards#eco-dome-aldanibosses-taahbat-and-awazj" class="wowhead" target="_blank">
+        WOWHEAD</a>
+
+      <a href="https://www.youtube.com/watch?v=_44TwKK6bv0&t=10m36s" class="yt" target="_blank">
+        YouTube</a>
+  
+    </h1>
+    <ul>
+      <li style="font-weight: bold;">Bindender Wurfspeer</li>
+      <ul><li style="font-weight: bold;">nah zum Boss, aber verteilt stehen</li></ul>
+      <ul><li>Speere killen</li></ul>
+      <ul><li>Spieler in den <span class="green">Speeren</span> müssen <span>stark geheilt</span> werden</li></ul>
+      <li style="font-weight: bold;">bei 100 Energie</li>
+      <ul><li>Boss kann nicht mehr angegriffen werden</li></ul>
+      <ul><li><span style="font-weight: bold; background-color: yellow; color: red; padding: 3px;">das neue Add muss durch den Boss stürmen</span></li></ul>
+      <ul>
+        <ul class="green"><li>Sphärenstoß hinterlässt Debuff zum wegheilen</li></ul>
+      </ul>
+    </ul>
+    </div>
+
+
+    <div class="absatz">
+    <h2>Trash</h2>
+    <ul>
+      <li class="lila">Elementar der K´aresh</li>
+      <ul><li>Schild rauben/entfernen</li></ul>
+      <li class="lila">Paktsprecherin</li>
+      <ul><li>Unberechenbares Ritual</li></ul>
+      <ul>
+        <ul><li><span style="font-weight: bold; background-color: yellow; color: green; padding: 3px;">massiver AoE</span></li></ul>
+        <ul><li style="font-weight: bold;">Geistverschlingen</li></ul>
+        <ul>
+          <ul><li><span style="background-color: yellow; color: red; font-weight: bold; padding: 3px;">Heraufbeschworenen Geist sofort töten</span></li></ul>
+        </ul>
+      </ul>
+    </ul>
+    </div>
+
+
+    <div class="absatz">
+    <h1>
+      Seelenschreiberin 
+
+      <a href="https://www.wowhead.com/guide/the-war-within/dungeons/eco-dome-aldani-overview-rewards#eco-dome-aldanibosses-soul-scribe" class="wowhead" target="_blank">
+        WOWHEAD</a>
+
+      <a href="https://www.youtube.com/watch?v=_44TwKK6bv0&t=20m17s" class="yt" target="_blank">
+        YouTube</a>
+
+    </h1>
+    <ul>
+      <li style="font-weight: bold;">Flüstern des Schicksals</li>
+      <ul><li>dort hinlaufen wo der Pfeil ist und <span style="font-weight: bold; background-color: yellow; color: red; padding: 3px;">Schicksal einsammeln</span> (5sec)</li></ul>
+      <li style="font-weight: bold;">Schrecken des Unbekannten</li>
+      <ul><li>verteilen</li></ul>
+      <ul><li style="color: green; font-weight: bold;">AoE</li></ul>
+      <li><span style="font-weight: bold;">Ewiges Geflecht</span> bei 100 Energie</li>
+      <ul>
+        <li>es erscheinen <span style="font-weight: bold; background-color: yellow; color: red; padding: 3px;">3 Schicksale!</span></li>
+        <li>man muss <span style="font-weight: bold;">priorisiert das</span> einsammeln, <span style="font-weight: bold;">das Schaden bekommen würde</span></li>
+        <li>beim Einsammeln bekommt man einen <span class="green">Debuff</span> – man kann jedoch zeitversetzt einsammeln</li>
+      </ul>
+    </ul>
+    </div>
+    </div>
+
+
+</div>
+
+
+
+
+<!----
+    <div class="verschlingen" id="verschlingen">
+      Verschlingen
+      
+      <img src="Bilder/Verschlingen.jpg">
+      <img src="Bilder/Verschlingen text.jpg">
+    </div>
+  -->
+
+<script>
+      if (localStorage.getItem('boxVisible') === null) {
+    localStorage.setItem('boxVisible', 'true');  // Setzt den Standardwert
+      }
+    </script>
+
+<script>
+const box = document.getElementById('myBox');
+const toggleButton = document.getElementById('toggleButton');
+
+// Prüfen, ob die Box auf dieser Seite angezeigt werden soll
+if (localStorage.getItem('boxVisible') === 'true') {
+    box.style.display = 'block';
+}
+
+// Event-Listener für Button
+toggleButton.addEventListener('click', () => {
+    if (box.style.display === 'block') {
+        box.style.display = 'none';
+        localStorage.setItem('boxVisible', 'false');
+    } else {
+        box.style.display = 'block';
+        localStorage.setItem('boxVisible', 'true');
+    }
+});
+</script>
+
+<!--verschlingen--
+<script>
+const verschlingen = document.getElementById('verschlingen');
+const targetDiv = document.querySelector('.target-div');
+// Wenn die Maus über das targetDiv geht
+targetDiv.addEventListener('mouseenter', () => {
+    verschlingen.style.display = 'block';  // Hoverbox anzeigen
+});
+
+// Wenn die Maus den targetDiv verlässt
+targetDiv.addEventListener('mouseleave', () => {
+    verschlingen.style.display = 'none';  // Hoverbox ausblenden
+});
+
+targetDiv.addEventListener('mousemove', (e) => {
+    // Position der Maus
+    const mouseX = e.clientX;
+    const mouseY = e.clientY;
+
+    // Position der Hoverbox rechts vom Mauszeiger
+    verschlingen.style.left = `${mouseX + 15}px`; // +15px, damit die Box rechts erscheint
+    verschlingen.style.top = `${mouseY + 15}px`;  // +15px, damit sie unter der Maus erscheint
+});
+
+</script>-->
+
+</body>
+</html>

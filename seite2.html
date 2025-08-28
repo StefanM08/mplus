@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Biokuppel</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css" />
+
+
+</head>
+<body>
+
+  <nav>
+    <h3>Mythic+ Dungeons Season 3</h3>
+    <a href="index.html" style="margin-top: 30px;">Biokuppel</a>
+    <a href="seite2.html">Operation Schleuse</a>
+    <!--<a href="seite3.html">Seite 3</a>
+    <a href="seite4.html">Seite 4</a>
+    <a href="seite5.html">Seite 5</a>
+    <a href="seite6.html">Seite 6</a>
+    <a href="seite7.html">Seite 7</a>
+    <a href="seite8.html">Seite 8</a>
+    <button style="margin-top: 30px;" onclick="toggleDarkMode()">Dark/Light Mode</button>-->
+
+  </nav>
+
+  <header>
+    <div class="header">
+
+      <div class="platzhalter">
+      </div>
+
+      <div class="mittelteil">
+        
+        <div class="mlinks">
+          <a href="https://www.youtube.com/watch?v=_0ZNqQPn6VM" class="title" target="_blank">Operation Schleuse</a>
+        </div>
+
+        <div class="mmitte">
+                <a href="https://www.youtube.com/watch?v=_0ZNqQPn6VM" class="yt" target="_blank">YouTube</a>
+        </div>
+
+        <div class="mrechts">
+        </div>
+
+      </div>
+
+      <div class="platzhalterrechts">
+
+        <!-- Knopf zum Ein- und Ausschalten der rechten Leiste-->
+        <button class="toggle-button" id="toggleButton">Spielerliste</button>
+
+        <!--<script>
+          function toggleBox() {
+            const box = document.getElementById("myBox");
+            box.style.display = (box.style.display === "none" || box.style.display === "") ? "block" : "none";
+          }
+        </script>-->
+
+
+
+      </div>
+
+    </div>
+  </header>  
+
+    <!-- Übersicht der Spieler -->
+    <div class="rechte-box" id="myBox" style="display: none;">
+      <h2>Derzeit am Start:</h2>
+      <div style="margin-top: 70px;"></div>
+      <p><a href="https://raider.io/characters/eu/shattrath/S%C3%A2drina" style="color: rgb(0, 112, 222);" target="_blank">Sâdrina</a> | Ani</p>
+      <p><a href="https://raider.io/characters/eu/shattrath/B%C3%A4rnd" style="color: rgb(0, 255, 150);" target="_blank">Bärnd</a> | Bernd</p>
+      <p><a href="https://raider.io/characters/eu/perenolde/Ellrendyl" style="color: rgb(255, 125, 10);" target="_blank">Ellrendyl</a> | Martin</p> 
+      <p><a href="https://raider.io/characters/eu/nozdormu/Pride" style="color: rgb(245, 140, 186);" target="_blank">Pride</a> | Stefan</p>
+      <p><a href="https://raider.io/characters/eu/nozdormu/Salma" style="color: rgb(148, 130, 201);" target="_blank">Salma</a> | Stefan (Twink)</p> 
+  </div>
+
+  
+  <div class="main">
+
+    <!--linke Seite-->
+
+    <div style="font-size: 0.8rem; display: flex; flex-direction: row;">
+      <img src="schleuse.jpg" class="bild" style="display: block; object-fit: cover;">
+      <a href="https://www.buffed.de/World-of-Warcraft-Spiel-42971/Guides/Operation-Schleuse-Guide-Dungeon-1467701/galerie/3987203/" style=" writing-mode: vertical-rl; margin-left: 10px; color: white; text-decoration: none;" target="_blank">Quelle: www.buffed.de</a>
+    </div>
+
+
+      <h2 style="padding-top: 40px;">Trash</h2>
+      <ul>
+        <li class="lila">Schützen</li>
+        <ul>
+          <li><span style="background-color: yellow; font-weight: bold; color: red; padding: 3px;">Trickschuss</span> <span class="blue">kicken</span></li>
+        </ul>
+        <li class="lila">Architektin</li>
+        <ul>
+          <li>fokussieren</li>
+          <li>Nagelpistole</li>
+          <ul>
+            <li>Bewegungsunfähig + <span class="green">Blutungsschaden</span></li>
+          </ul>
+        <li>ggf. erst Gerüst killen, da sie sonst kaum Schaden bekommt!</li>
+        </ul>
+        <li class="lila">Taucher</li>
+        <ul>
+          <li><span style="background-color: yellow; color: red; padding: 3px; font-weight: bold;">Harpune</span> (fast one-shot!)</li>
+          <ul>
+            <li class="blue">unterbrechen / CC</li>
+            <li>bzw. Def-CD</li>
+          </ul>
+        </ul>
+        <li class="lila">Inspektor</li>
+        <ul>
+          <li><span style="background-color: yellow; font-weight: bold; color: red; padding: 3px;">Vermessungsstrahl</span> <span class="blue">kicken</span></li>
+        </ul>
+        <li class="lila">Schreddinator 3000</li>
+        <ul>
+          <li><span style="background-color: yellow; color: red; padding: 3px; font-weight: bold;">Schreddifizierer</span></li>
+          <ul>bereits beim Cast moven, da Sägeblätter erscheinen</ul>
+        </ul>
+      </ul>
+    
+      <div class="absatz">
+      <h1>
+        Große M.A.M.A.
+
+        <a href="https://www.wowhead.com/guide/the-war-within/dungeons/patch-11-1-operation-floodgate-dungeon-overview#bosses-big-m-o-m-m-a" 
+        class="wowhead" target="_blank">WOWHEAD</a>
+
+        <a href="https://www.youtube.com/watch?v=_0ZNqQPn6VM&t=638s" class="yt" target="_blank">
+        YouTube</a>
+      </h1>
+      <ul>
+      </ul>
+      </div>
+
+      <div class="absatz">
+      <h2>Trash</h2>
+      <ul>
+        
+      </ul>
+      </div>
+
+      <div class="absatz">
+      <h1>
+        Keeza Zackigzorn und Bront 
+        
+        <a href="https://www.wowhead.com/guide/the-war-within/dungeons/patch-11-1-operation-floodgate-dungeon-overview#bosses-demolition-duo" 
+        class="wowhead" target="_blank">WOWHEAD</a>
+
+        <a href="https://www.youtube.com/watch?v=_0ZNqQPn6VM&t=315s" class="yt" target="_blank">
+        YouTube</a>
+      </h1>
+
+      <ul>
+      
+      </ul>
+      </div>
+
+
+      <div class="absatz">
+      <h2>Trash</h2>
+      <ul>
+  
+      </ul>
+      </div>
+
+
+      <div class="absatz">
+      <h1>
+        Sumpfgesicht (schwerster Boss)
+
+        <a href="https://www.wowhead.com/guide/the-war-within/dungeons/patch-11-1-operation-floodgate-dungeon-overview#bosses-swampface" 
+        class="wowhead" target="_blank">WOWHEAD</a>
+
+        <a href="https://www.youtube.com/watch?v=_0ZNqQPn6VM&t=1008s" class="yt" target="_blank">
+        YouTube</a>
+
+      </h1>
+      <ul>
+  
+      </ul>
+      </div>
+      
+      <div class="absatz">
+      <h2>Trash</h2>
+      <ul>
+  
+      </ul>
+      </div>
+
+
+      <div class="absatz">
+      <h1>
+        Giesel Gigaschock
+      
+      <a href="https://www.wowhead.com/guide/the-war-within/dungeons/patch-11-1-operation-floodgate-dungeon-overview#bosses-geezle-gigazap" 
+      class="wowhead" target="_blank">WOWHEAD</a>
+
+      <a href="https://www.youtube.com/watch?v=_0ZNqQPn6VM&t=1402s" class="yt" target="_blank">
+      YouTube</a>
+
+      </h1>
+      <ul>
+  
+      </ul>
+      </div>
+
+
+
+</div>
+
+<script>
+      if (localStorage.getItem('boxVisible') === null) {
+    localStorage.setItem('boxVisible', 'true');  // Setzt den Standardwert
+      }
+    </script>
+
+<script>
+const box = document.getElementById('myBox');
+const toggleButton = document.getElementById('toggleButton');
+
+// Prüfen, ob die Box auf dieser Seite angezeigt werden soll
+if (localStorage.getItem('boxVisible') === 'true') {
+    box.style.display = 'block';
+}
+
+// Event-Listener für Button
+toggleButton.addEventListener('click', () => {
+    if (box.style.display === 'block') {
+        box.style.display = 'none';
+        localStorage.setItem('boxVisible', 'false');
+    } else {
+        box.style.display = 'block';
+        localStorage.setItem('boxVisible', 'true');
+    }
+});
+</script>
+
+
+</body>
+</html>

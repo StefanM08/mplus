@@ -1,0 +1,301 @@
+.bungee-spice-regular {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  margin: 0px;
+  font-family: Arial, sans-serif;
+  background-color: rgb(34, 34, 34);
+  color: white;
+}
+
+nav {
+  width: 200px;
+  background-color: #303030;
+  color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 120px;
+  height: 100%;
+ 
+  /*
+  background: linear-gradient(to right, #818181, #303030);
+  
+  /*background-image: url(back2.jpg);
+  /*background-size: cover;
+  background-size: 20%;
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: repeat;*/
+
+}
+
+nav a {
+  display: block;
+  color: black;
+  text-decoration: none;
+  margin-top: 10px;
+  border: 1px solid #303030;
+  box-shadow: 8px 8px 5px #444444;
+  padding: 8px 12px;
+  background-image: linear-gradient(180deg, white, #dddddd 40%, #cccccc);
+  cursor: pointer;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  margin-top: 0px;
+  height: 120px;
+  width: 100%;
+  position: fixed;
+  top: 0px;
+  background-color: #303030;
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+
+  /*text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f;
+
+  /* background: linear-gradient(to bottom, #818181, #303030);*/
+
+
+  /*
+  border-width: 1px;
+  border-color: white;
+  border-style: solid;
+  
+  background-image: url(back2.jpg);
+  /*background-size: cover;
+  background-size: 20%;
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: repeat;*/
+
+}
+
+.platzhalter {
+  width: 200px;
+}
+
+.platzhalterrechts {
+  width: 240px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.mittelteil {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.mlinks {
+  display: inline-block;
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5rem;
+  padding-left: 10px;
+
+}
+
+.mmitte {
+  display: inline-block;
+  margin-left: 10px;
+  padding-top: 30px;
+}
+
+.mrechts {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.title {
+  text-decoration: none; 
+  text-shadow: 0 0 10px #00f, 0 0 20px #00f, 0 0 30px #00f;
+  display: inline;
+}
+
+.yt {
+  text-shadow: none; 
+  text-decoration: none; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 1rem; 
+  color: white; 
+  border-width: 1px; 
+  border-color: white; 
+  border-style: solid; 
+  border-radius: 3px; 
+  padding: 3px; 
+  display: inline;
+  margin-left: 20px;
+}
+
+.wowhead {
+  border-width: 1px; 
+  border-color: white; 
+  border-style: solid; 
+  border-radius: 3px; 
+  padding: 3px; 
+  margin-left: 30px; 
+  text-decoration: none; 
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 1rem; 
+  color: white;
+}
+
+h1 {
+  font-family: "Bungee Spice";
+  font-size: 2.5rem;
+  /*font-size: clamp(18px, 4vw, 50px);*/
+
+
+}
+
+.bild {
+  width: 50vw;           /* Dynamisch – 80% der Viewport-Breite */
+  max-width: 800px;      /* Niemals größer als 800px */
+  min-width: 300px;      /* Niemals kleiner als 300px */
+  height: auto;          /* Höhe proportional zur Breite */
+  object-fit: contain;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-top: 150px;
+  margin-left: 250px;
+  margin-right: 200px;
+  font-size: 1.2rem;
+  /*white-space: nowrap;*
+  font-size: clamp(12px, 1.5vw, 18px);
+  /*
+  margin-top: 150px;
+  /*margin-bottom: 0px;*
+  margin-left: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  /*
+  background-image: url(back2.jpg);
+  background-size: 10%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: repeat;*/
+}
+
+  /*  .toggle-button {
+      margin: 20px;
+      margin-top: 10px;
+      padding: 10px 20px;
+      position: fixed;
+      top: 30px;
+      right: 0px;
+      cursor: pointer;
+      background-image: linear-gradient(180deg, white, #dddddd 40%, #cccccc);
+      color: black;
+      font-size: 16px;
+    }*/
+
+
+
+.rechte-box {
+  position: fixed;
+  top: 120px;
+  right: 0;
+  width: 200px;
+  height: 100vh; /* Volle Fensterhöhe */
+  background-color: #303030;
+  color: white;
+  padding: 20px;
+  overflow-y: auto; /* Scrollbar, falls Inhalt zu lang */
+
+  /*background: linear-gradient(to left, #818181, #303030);
+
+  /*background-image: url(back2.jpg);
+  /*background-size: cover;
+  background-size: 20%;
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: repeat;*/
+
+}
+
+
+
+
+ul li {
+  margin-bottom: 10px; /* Abstand zwischen Einträgen */
+}
+
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #444;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+.blue {
+  color: rgb(49, 115, 255);
+  font-weight: bold;
+}
+
+.lila {
+  color: rgb(189, 2, 189);
+  font-weight: bold;
+}
+
+.red {
+  color: red;
+  font-weight: bold;
+}
+
+.green {
+  color: rgb(1, 161, 1);
+  font-weight: bold;
+}
+
+.absatz {
+  margin-top: 3em;
+}
+
+/* für script Mauszeiger
+.verschlingen {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: none;  /* Standardmäßig unsichtbar *
+    pointer-events: none; /* Verhindert, dass die Box die Mausinteraktion blockiert 
+    z-index: 9999;
+}
+
+.target-div {
+  cursor: pointer;
+  position: relative;
+}*/
+
